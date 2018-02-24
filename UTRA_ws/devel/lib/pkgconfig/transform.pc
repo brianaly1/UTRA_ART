@@ -1,0 +1,8 @@
+prefix=/home/utra-art/UTRA/UTRA_ws/devel
+
+Name: transform
+Description: Description of transform
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/utra-art/UTRA/UTRA_ws/devel/lib 
+Requires: 

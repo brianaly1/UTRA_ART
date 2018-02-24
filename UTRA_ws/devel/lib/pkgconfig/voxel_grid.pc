@@ -1,0 +1,8 @@
+prefix=/home/utra-art/UTRA/UTRA_ws/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.14.2
+Cflags: -I/home/utra-art/UTRA/UTRA_ws/src/navigation/voxel_grid/include
+Libs: -L/home/utra-art/UTRA/UTRA_ws/devel/lib -lvoxel_grid
+Requires: roscpp

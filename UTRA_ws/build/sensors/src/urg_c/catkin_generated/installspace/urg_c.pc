@@ -1,0 +1,8 @@
+prefix=/home/utra-art/UTRA/UTRA_ws/install
+
+Name: urg_c
+Description: Description of urg_c
+Version: 1.0.404
+Cflags: -I/home/utra-art/UTRA/UTRA_ws/install/include
+Libs: -L/home/utra-art/UTRA/UTRA_ws/install/lib -lliburg_c
+Requires: 

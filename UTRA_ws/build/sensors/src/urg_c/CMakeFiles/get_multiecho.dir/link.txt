@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/get_multiecho.dir/current/samples/get_multiecho.c.o  -o /home/utra-art/UTRA/UTRA_ws/devel/lib/urg_c/get_multiecho -rdynamic /home/utra-art/UTRA/UTRA_ws/devel/lib/libopen_urg_sensor.so /home/utra-art/UTRA/UTRA_ws/devel/lib/libliburg_c.so -lrt -lm -Wl,-rpath,/home/utra-art/UTRA/UTRA_ws/devel/lib: 

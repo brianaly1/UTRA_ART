@@ -1,0 +1,8 @@
+prefix=/home/utra-art/UTRA/UTRA_ws/devel
+
+Name: navfn
+Description: Description of navfn
+Version: 1.14.2
+Cflags: -I/home/utra-art/UTRA/UTRA_ws/devel/include -I/home/utra-art/UTRA/UTRA_ws/src/navigation/navfn/include
+Libs: -L/home/utra-art/UTRA/UTRA_ws/devel/lib -lnavfn
+Requires: geometry_msgs message_runtime nav_core nav_msgs pluginlib roscpp visualization_msgs
