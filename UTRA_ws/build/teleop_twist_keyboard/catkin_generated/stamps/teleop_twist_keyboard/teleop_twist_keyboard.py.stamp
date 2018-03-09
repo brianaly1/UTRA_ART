@@ -51,8 +51,7 @@ moveBindings = {
 		'M':(-1,1,0,0),
 		't':(0,0,1,0),
 		'b':(0,0,-1,0),
-                'n':(0,0,0,0),
-                'r':(0,0,0,0),
+                'k':(0,0,0,0),
 	       }
 
 speedBindings={
@@ -100,20 +99,18 @@ if __name__=="__main__":
 				y = moveBindings[key][1]
 				z = moveBindings[key][2]
 				th = moveBindings[key][3]
-                                if key=='n':
-                        		k = 1
-                                elif key=='r':
-                                        k = 0            
-                                
+                                k = 1           
 			elif key in speedBindings.keys():
 				speed = speed * speedBindings[key][0]
 				turn = turn * speedBindings[key][1]
+                                k = 1   
 
 				print vels(speed,turn)
 				if (status == 14):
 					print msg
 				status = (status + 1) % 15
 			else:
+                                k = 0
 				x = 0
 				y = 0
 				z = 0

@@ -5,7 +5,7 @@ int main(int argc, char** argv){
   ros::init(argc, argv, "base_laser_tf");
   ros::NodeHandle n;
 
-  ros::Rate r(10);
+  ros::Rate r(10000);
 
   tf::TransformBroadcaster broadcaster;
   

@@ -10,6 +10,7 @@
     <url>http://wiki.ros.org/navigation</url>
 
     <buildtool_depend>catkin</buildtool_depend>
+    <run_depend>odom</run_depend>
 
     <export>
         <metapackage/>

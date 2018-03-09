@@ -47,11 +47,12 @@ int main(int argc, char **argv)
   ros::Time current_time,prev_time;
   current_time = ros::Time::now();
 
-  ros::Subscriber sub1 = n.subscribe("/cmd_vel", 1000, targetcb);
-  ros::Subscriber sub2 = n.subscribe("/cmd_vel2", 1000, targetcb2);
+  ros::Subscriber sub1 = n.subscribe("/cmd_vel2", 1, targetcb);
+  ros::Subscriber sub2 = n.subscribe("/cmd_vel", 1, targetcb2);
+  ros::Subscriber sub3 = n.subscribe("/stop_command", 1, controlcb);
   ros::Publisher rvel_pub = n.advertise<std_msgs::Float64>("/right_wheel/command", 1);
   ros::Publisher lvel_pub = n.advertise<std_msgs::Float64>("/left_wheel/command", 1);
-  ros::Rate loop_rate(10);
+  ros::Rate loop_rate(100);
 
   std_msgs::Float64 rvelmsg;
   std_msgs::Float64 lvelmsg;	
@@ -66,11 +67,12 @@ int main(int argc, char **argv)
     //the following expressions are derived from unicycle kinematics
     vr = vx + (wheelbase*wz)/2 ;
     vl = vx - (wheelbase*wz)/2 ;
-    rvelmsg.data = convertr(vr);
-    lvelmsg.data = convertl(vl); 
+    rvelmsg.data = vr;
+    lvelmsg.data = vl; 
 
     rvel_pub.publish(rvelmsg);
     lvel_pub.publish(lvelmsg);
+    loop_rate.sleep();
   }
   return 0;
 }

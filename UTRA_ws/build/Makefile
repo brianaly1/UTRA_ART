@@ -1466,6 +1466,149 @@ _run_tests_map_server_rostest_test_rtest.xml/fast:
 .PHONY : _run_tests_map_server_rostest_test_rtest.xml/fast
 
 #=============================================================================
+# Target rules for targets named goal
+
+# Build rule for target.
+goal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 goal
+.PHONY : goal
+
+# fast build rule for target.
+goal/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/goal.dir/build.make control/src/goal/CMakeFiles/goal.dir/build
+.PHONY : goal/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_nodejs
+
+# Build rule for target.
+move_base_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_nodejs
+.PHONY : move_base_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+move_base_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make control/src/goal/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+.PHONY : move_base_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_py
+
+# Build rule for target.
+actionlib_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_py
+.PHONY : actionlib_generate_messages_py
+
+# fast build rule for target.
+actionlib_generate_messages_py/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/actionlib_generate_messages_py.dir/build.make control/src/goal/CMakeFiles/actionlib_generate_messages_py.dir/build
+.PHONY : actionlib_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_cpp
+
+# Build rule for target.
+actionlib_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_cpp
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make control/src/goal/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_eus
+
+# Build rule for target.
+move_base_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_eus
+.PHONY : move_base_msgs_generate_messages_eus
+
+# fast build rule for target.
+move_base_msgs_generate_messages_eus/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make control/src/goal/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+.PHONY : move_base_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_cpp
+
+# Build rule for target.
+move_base_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_cpp
+.PHONY : move_base_msgs_generate_messages_cpp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make control/src/goal/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+.PHONY : move_base_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_py
+
+# Build rule for target.
+move_base_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_py
+.PHONY : move_base_msgs_generate_messages_py
+
+# fast build rule for target.
+move_base_msgs_generate_messages_py/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make control/src/goal/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+.PHONY : move_base_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_eus
+
+# Build rule for target.
+actionlib_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_eus
+.PHONY : actionlib_generate_messages_eus
+
+# fast build rule for target.
+actionlib_generate_messages_eus/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/actionlib_generate_messages_eus.dir/build.make control/src/goal/CMakeFiles/actionlib_generate_messages_eus.dir/build
+.PHONY : actionlib_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_lisp
+
+# Build rule for target.
+actionlib_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_lisp
+.PHONY : actionlib_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_generate_messages_lisp/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make control/src/goal/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_lisp
+
+# Build rule for target.
+move_base_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_lisp
+.PHONY : move_base_msgs_generate_messages_lisp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make control/src/goal/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+.PHONY : move_base_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_nodejs
+
+# Build rule for target.
+actionlib_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	$(MAKE) -f control/src/goal/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make control/src/goal/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml
 
 # Build rule for target.
@@ -1518,6 +1661,19 @@ _run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
 .PHONY : _run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
 
 #=============================================================================
+# Target rules for targets named run_tests_amcl_rostest_test_texas_greenroom_loop.xml
+
+# Build rule for target.
+run_tests_amcl_rostest_test_texas_greenroom_loop.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_amcl_rostest_test_texas_greenroom_loop.xml
+.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
+
+#=============================================================================
 # Target rules for targets named _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml
 
 # Build rule for target.
@@ -1557,121 +1713,30 @@ run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast:
 .PHONY : run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast
 
 #=============================================================================
-# Target rules for targets named _run_tests_amcl_rostest_test_basic_localization_stage.xml
+# Target rules for targets named dynamic_reconfigure_gencfg
 
 # Build rule for target.
-_run_tests_amcl_rostest_test_basic_localization_stage.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_amcl_rostest_test_basic_localization_stage.xml
-.PHONY : _run_tests_amcl_rostest_test_basic_localization_stage.xml
+dynamic_reconfigure_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
+.PHONY : dynamic_reconfigure_gencfg
 
 # fast build rule for target.
-_run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
+dynamic_reconfigure_gencfg/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
-# Target rules for targets named _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+# Target rules for targets named tf_generate_messages_lisp
 
 # Build rule for target.
-_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
-.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+tf_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
+.PHONY : tf_generate_messages_lisp
 
 # fast build rule for target.
-_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_amcl
-
-# Build rule for target.
-clean_test_results_amcl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_amcl
-.PHONY : clean_test_results_amcl
-
-# fast build rule for target.
-clean_test_results_amcl/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build.make navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build
-.PHONY : clean_test_results_amcl/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_eus
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_eus
-.PHONY : dynamic_reconfigure_generate_messages_eus
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_eus/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_py
-
-# Build rule for target.
-actionlib_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_py
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named amcl_basic_localization_stage_indexed.bag
-
-# Build rule for target.
-amcl_basic_localization_stage_indexed.bag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 amcl_basic_localization_stage_indexed.bag
-.PHONY : amcl_basic_localization_stage_indexed.bag
-
-# fast build rule for target.
-amcl_basic_localization_stage_indexed.bag/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build
-.PHONY : amcl_basic_localization_stage_indexed.bag/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_amcl_rostest_test_texas_greenroom_loop.xml
-
-# Build rule for target.
-run_tests_amcl_rostest_test_texas_greenroom_loop.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_amcl_rostest_test_texas_greenroom_loop.xml
-.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_lisp
-
-# Build rule for target.
-actionlib_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_lisp
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named amcl_small_loop_prf_indexed.bag
-
-# Build rule for target.
-amcl_small_loop_prf_indexed.bag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 amcl_small_loop_prf_indexed.bag
-.PHONY : amcl_small_loop_prf_indexed.bag
-
-# fast build rule for target.
-amcl_small_loop_prf_indexed.bag/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build
-.PHONY : amcl_small_loop_prf_indexed.bag/fast
+tf_generate_messages_lisp/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/tf_generate_messages_lisp.dir/build.make navigation/amcl/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_py
@@ -1700,82 +1765,17 @@ run_tests_amcl_rostest_test_set_initial_pose.xml/fast:
 .PHONY : run_tests_amcl_rostest_test_set_initial_pose.xml/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_amcl_rostest_test_basic_localization_stage.xml
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
 
 # Build rule for target.
-run_tests_amcl_rostest_test_basic_localization_stage.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_amcl_rostest_test_basic_localization_stage.xml
-.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
 
 # fast build rule for target.
-run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_nodejs
-
-# Build rule for target.
-actionlib_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_py
-
-# Build rule for target.
-tf_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/tf_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_lisp
-
-# Build rule for target.
-tf_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/tf_generate_messages_lisp.dir/build.make navigation/amcl/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_gencfg
-
-# Build rule for target.
-dynamic_reconfigure_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_eus
-
-# Build rule for target.
-tf_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_eus
-.PHONY : tf_generate_messages_eus
-
-# fast build rule for target.
-tf_generate_messages_eus/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/tf_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/tf_generate_messages_eus.dir/build
-.PHONY : tf_generate_messages_eus/fast
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named run_tests_amcl_rostest_test_small_loop_prf.xml
@@ -1804,17 +1804,30 @@ std_srvs_generate_messages_lisp/fast:
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
+# Target rules for targets named tf_generate_messages_py
 
 # Build rule for target.
-dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
-.PHONY : dynamic_reconfigure_generate_messages_lisp
+tf_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
+.PHONY : tf_generate_messages_py
 
 # fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+tf_generate_messages_py/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/tf_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_eus
+
+# Build rule for target.
+tf_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_eus
+.PHONY : tf_generate_messages_eus
+
+# fast build rule for target.
+tf_generate_messages_eus/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/tf_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/tf_generate_messages_eus.dir/build
+.PHONY : tf_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named tf_generate_messages_cpp
@@ -1867,6 +1880,32 @@ topic_tools_generate_messages_nodejs: cmake_check_build_system
 topic_tools_generate_messages_nodejs/fast:
 	$(MAKE) -f navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
 .PHONY : topic_tools_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_nodejs
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_nodejs
+.PHONY : dynamic_reconfigure_generate_messages_nodejs
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_nodejs/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named amcl_small_loop_crazy_driving_prg_indexed.bag
+
+# Build rule for target.
+amcl_small_loop_crazy_driving_prg_indexed.bag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 amcl_small_loop_crazy_driving_prg_indexed.bag
+.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag
+
+# fast build rule for target.
+amcl_small_loop_crazy_driving_prg_indexed.bag/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build
+.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_py
@@ -1947,32 +1986,6 @@ _run_tests_amcl_rostest/fast:
 .PHONY : _run_tests_amcl_rostest/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
-
-# Build rule for target.
-run_tests_amcl_rostest_test_set_initial_pose_delayed.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
-.PHONY : run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
-
-#=============================================================================
-# Target rules for targets named topic_tools_generate_messages_py
-
-# Build rule for target.
-topic_tools_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_py
-.PHONY : topic_tools_generate_messages_py
-
-# fast build rule for target.
-topic_tools_generate_messages_py/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build
-.PHONY : topic_tools_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named topic_tools_generate_messages_cpp
 
 # Build rule for target.
@@ -2023,45 +2036,6 @@ _run_tests_amcl_rostest_test_set_initial_pose.xml: cmake_check_build_system
 _run_tests_amcl_rostest_test_set_initial_pose.xml/fast:
 	$(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build
 .PHONY : _run_tests_amcl_rostest_test_set_initial_pose.xml/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_cpp
-
-# Build rule for target.
-actionlib_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_cpp
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_nodejs
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_nodejs
-.PHONY : dynamic_reconfigure_generate_messages_nodejs
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_nodejs/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named amcl_small_loop_crazy_driving_prg_indexed.bag
-
-# Build rule for target.
-amcl_small_loop_crazy_driving_prg_indexed.bag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 amcl_small_loop_crazy_driving_prg_indexed.bag
-.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag
-
-# fast build rule for target.
-amcl_small_loop_crazy_driving_prg_indexed.bag/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build
-.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_cpp
@@ -2140,6 +2114,71 @@ amcl: cmake_check_build_system
 amcl/fast:
 	$(MAKE) -f navigation/amcl/CMakeFiles/amcl.dir/build.make navigation/amcl/CMakeFiles/amcl.dir/build
 .PHONY : amcl/fast
+
+#=============================================================================
+# Target rules for targets named amcl_basic_localization_stage_indexed.bag
+
+# Build rule for target.
+amcl_basic_localization_stage_indexed.bag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 amcl_basic_localization_stage_indexed.bag
+.PHONY : amcl_basic_localization_stage_indexed.bag
+
+# fast build rule for target.
+amcl_basic_localization_stage_indexed.bag/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/build
+.PHONY : amcl_basic_localization_stage_indexed.bag/fast
+
+#=============================================================================
+# Target rules for targets named amcl_small_loop_prf_indexed.bag
+
+# Build rule for target.
+amcl_small_loop_prf_indexed.bag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 amcl_small_loop_prf_indexed.bag
+.PHONY : amcl_small_loop_prf_indexed.bag
+
+# fast build rule for target.
+amcl_small_loop_prf_indexed.bag/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build.make navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build
+.PHONY : amcl_small_loop_prf_indexed.bag/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_py
+
+# Build rule for target.
+topic_tools_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_py
+.PHONY : topic_tools_generate_messages_py
+
+# fast build rule for target.
+topic_tools_generate_messages_py/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build.make navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build
+.PHONY : topic_tools_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+
+# Build rule for target.
+run_tests_amcl_rostest_test_set_initial_pose_delayed.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+.PHONY : run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_amcl_rostest_test_basic_localization_stage.xml
+
+# Build rule for target.
+run_tests_amcl_rostest_test_basic_localization_stage.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_amcl_rostest_test_basic_localization_stage.xml
+.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
 
 #=============================================================================
 # Target rules for targets named amcl_texas_greenroom_loop_indexed.bag
@@ -2233,19 +2272,6 @@ _run_tests_amcl/fast:
 .PHONY : _run_tests_amcl/fast
 
 #=============================================================================
-# Target rules for targets named actionlib_generate_messages_eus
-
-# Build rule for target.
-actionlib_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_eus
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	$(MAKE) -f navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-#=============================================================================
 # Target rules for targets named run_tests_amcl_rostest
 
 # Build rule for target.
@@ -2257,6 +2283,58 @@ run_tests_amcl_rostest: cmake_check_build_system
 run_tests_amcl_rostest/fast:
 	$(MAKE) -f navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build.make navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build
 .PHONY : run_tests_amcl_rostest/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_eus
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_eus
+.PHONY : dynamic_reconfigure_generate_messages_eus
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_eus/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make navigation/amcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+
+# Build rule for target.
+_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml
+
+# fast build rule for target.
+_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_amcl
+
+# Build rule for target.
+clean_test_results_amcl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_amcl
+.PHONY : clean_test_results_amcl
+
+# fast build rule for target.
+clean_test_results_amcl/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build.make navigation/amcl/CMakeFiles/clean_test_results_amcl.dir/build
+.PHONY : clean_test_results_amcl/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_amcl_rostest_test_basic_localization_stage.xml
+
+# Build rule for target.
+_run_tests_amcl_rostest_test_basic_localization_stage.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_amcl_rostest_test_basic_localization_stage.xml
+.PHONY : _run_tests_amcl_rostest_test_basic_localization_stage.xml
+
+# fast build rule for target.
+_run_tests_amcl_rostest_test_basic_localization_stage.xml/fast:
+	$(MAKE) -f navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build.make navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_basic_localization_stage.xml/fast
 
 #=============================================================================
 # Target rules for targets named fake_localization
@@ -6406,69 +6484,17 @@ rotate_recovery/fast:
 .PHONY : rotate_recovery/fast
 
 #=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_nodejs
+# Target rules for targets named move_base_gencfg
 
 # Build rule for target.
-move_base_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_nodejs
-.PHONY : move_base_msgs_generate_messages_nodejs
+move_base_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_gencfg
+.PHONY : move_base_gencfg
 
 # fast build rule for target.
-move_base_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
-.PHONY : move_base_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_py
-
-# Build rule for target.
-move_base_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_py
-.PHONY : move_base_msgs_generate_messages_py
-
-# fast build rule for target.
-move_base_msgs_generate_messages_py/fast:
-	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
-.PHONY : move_base_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_lisp
-
-# Build rule for target.
-move_base_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_lisp
-.PHONY : move_base_msgs_generate_messages_lisp
-
-# fast build rule for target.
-move_base_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
-.PHONY : move_base_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_eus
-
-# Build rule for target.
-move_base_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_eus
-.PHONY : move_base_msgs_generate_messages_eus
-
-# fast build rule for target.
-move_base_msgs_generate_messages_eus/fast:
-	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
-.PHONY : move_base_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_cpp
-
-# Build rule for target.
-move_base_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_cpp
-.PHONY : move_base_msgs_generate_messages_cpp
-
-# fast build rule for target.
-move_base_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navigation/move_base/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
-.PHONY : move_base_msgs_generate_messages_cpp/fast
+move_base_gencfg/fast:
+	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_gencfg.dir/build.make navigation/move_base/CMakeFiles/move_base_gencfg.dir/build
+.PHONY : move_base_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named move_base
@@ -6495,19 +6521,6 @@ move_base_node: cmake_check_build_system
 move_base_node/fast:
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_node.dir/build.make navigation/move_base/CMakeFiles/move_base_node.dir/build
 .PHONY : move_base_node/fast
-
-#=============================================================================
-# Target rules for targets named move_base_gencfg
-
-# Build rule for target.
-move_base_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_gencfg
-.PHONY : move_base_gencfg
-
-# fast build rule for target.
-move_base_gencfg/fast:
-	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_gencfg.dir/build.make navigation/move_base/CMakeFiles/move_base_gencfg.dir/build
-.PHONY : move_base_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named zed_wrapper_node
@@ -6674,58 +6687,61 @@ help:
 	@echo "... clean_test_results_map_server"
 	@echo "... rtest"
 	@echo "... _run_tests_map_server_rostest_test_rtest.xml"
+	@echo "... goal"
+	@echo "... move_base_msgs_generate_messages_nodejs"
+	@echo "... actionlib_generate_messages_py"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... move_base_msgs_generate_messages_eus"
+	@echo "... move_base_msgs_generate_messages_cpp"
+	@echo "... move_base_msgs_generate_messages_py"
+	@echo "... actionlib_generate_messages_eus"
+	@echo "... actionlib_generate_messages_lisp"
+	@echo "... move_base_msgs_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
 	@echo "... _run_tests_amcl_rostest_test_rosie_multilaser.xml"
 	@echo "... run_tests_amcl_rostest_test_rosie_multilaser.xml"
 	@echo "... _run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
+	@echo "... run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
 	@echo "... _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
 	@echo "... _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
 	@echo "... run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
-	@echo "... _run_tests_amcl_rostest_test_basic_localization_stage.xml"
-	@echo "... _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
-	@echo "... clean_test_results_amcl"
-	@echo "... dynamic_reconfigure_generate_messages_eus"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... amcl_basic_localization_stage_indexed.bag"
-	@echo "... run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
-	@echo "... actionlib_generate_messages_lisp"
-	@echo "... amcl_small_loop_prf_indexed.bag"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... tf_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... run_tests_amcl_rostest_test_set_initial_pose.xml"
-	@echo "... run_tests_amcl_rostest_test_basic_localization_stage.xml"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... tf_generate_messages_py"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... tf_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... run_tests_amcl_rostest_test_small_loop_prf.xml"
 	@echo "... std_srvs_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... tf_generate_messages_py"
+	@echo "... tf_generate_messages_eus"
 	@echo "... tf_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... amcl_global_localization_stage_indexed.bag"
 	@echo "... topic_tools_generate_messages_nodejs"
+	@echo "... dynamic_reconfigure_generate_messages_nodejs"
+	@echo "... amcl_small_loop_crazy_driving_prg_indexed.bag"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... amcl_willow-full.pgm"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... _run_tests_amcl_rostest"
-	@echo "... run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
-	@echo "... topic_tools_generate_messages_py"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_eus"
 	@echo "... amcl_pf"
 	@echo "... _run_tests_amcl_rostest_test_set_initial_pose.xml"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_nodejs"
-	@echo "... amcl_small_loop_crazy_driving_prg_indexed.bag"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... amcl_gencfg"
 	@echo "... topic_tools_generate_messages_lisp"
 	@echo "... amcl_map"
 	@echo "... amcl_sensors"
 	@echo "... amcl"
+	@echo "... amcl_basic_localization_stage_indexed.bag"
+	@echo "... amcl_small_loop_prf_indexed.bag"
+	@echo "... topic_tools_generate_messages_py"
+	@echo "... run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
+	@echo "... run_tests_amcl_rostest_test_basic_localization_stage.xml"
 	@echo "... amcl_texas_greenroom_loop_indexed.bag"
 	@echo "... _run_tests_amcl_rostest_test_small_loop_prf.xml"
 	@echo "... amcl_texas_willow_hallway_loop_indexed.bag"
@@ -6733,8 +6749,11 @@ help:
 	@echo "... amcl_willow-full-0.05.pgm"
 	@echo "... run_tests_amcl"
 	@echo "... _run_tests_amcl"
-	@echo "... actionlib_generate_messages_eus"
 	@echo "... run_tests_amcl_rostest"
+	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
+	@echo "... clean_test_results_amcl"
+	@echo "... _run_tests_amcl_rostest_test_basic_localization_stage.xml"
 	@echo "... fake_localization"
 	@echo "... _run_tests_gmapping_rostest_test_basic_localization_laser_different_beamcount.test"
 	@echo "... run_tests_gmapping_rostest_test_basic_localization_laser_different_beamcount.test"
@@ -7054,14 +7073,9 @@ help:
 	@echo "... global_planner"
 	@echo "... planner"
 	@echo "... rotate_recovery"
-	@echo "... move_base_msgs_generate_messages_nodejs"
-	@echo "... move_base_msgs_generate_messages_py"
-	@echo "... move_base_msgs_generate_messages_lisp"
-	@echo "... move_base_msgs_generate_messages_eus"
-	@echo "... move_base_msgs_generate_messages_cpp"
+	@echo "... move_base_gencfg"
 	@echo "... move_base"
 	@echo "... move_base_node"
-	@echo "... move_base_gencfg"
 	@echo "... zed_wrapper_node"
 	@echo "... zed_wrapper_gencfg"
 	@echo "... dummy_zed_wrapper"

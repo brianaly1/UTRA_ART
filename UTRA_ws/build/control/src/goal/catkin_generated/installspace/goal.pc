@@ -1,0 +1,8 @@
+prefix=/home/utra-art/UTRA/UTRA_ws/install
+
+Name: goal
+Description: Description of goal
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/utra-art/UTRA/UTRA_ws/install/lib 
+Requires: 

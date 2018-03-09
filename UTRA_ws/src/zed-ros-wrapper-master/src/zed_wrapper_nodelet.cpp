@@ -512,21 +512,21 @@ namespace zed_wrapper {
                 int depth_SubNumber = pub_depth.getNumSubscribers();
                 int cloud_SubNumber = pub_cloud.getNumSubscribers();
                 int odom_SubNumber = pub_odom.getNumSubscribers();
-                bool runLoop = (rgb_SubNumber + rgb_raw_SubNumber + left_SubNumber + left_raw_SubNumber + right_SubNumber + right_raw_SubNumber + depth_SubNumber + cloud_SubNumber + odom_SubNumber) > 0;
+                bool runLoop = (rgb_SubNumber + rgb_raw_SubNumber + left_SubNumber + left_raw_SubNumber + right_SubNumber + right_raw_SubNumber + depth_SubNumber + cloud_SubNumber + odom_SubNumber) >= 0; // supposed to be >
 
                 runParams.enable_point_cloud = false;
                 if (cloud_SubNumber > 0)
                     runParams.enable_point_cloud = true;
                 // Run the loop only if there is some subscribers
                 if (runLoop) {
-                    if ((depth_stabilization || odom_SubNumber > 0) && !tracking_activated) { //Start the tracking
+                    if ((depth_stabilization || odom_SubNumber >= 0) && !tracking_activated) { //Start the tracking
                         if (odometry_DB != "" && !file_exist(odometry_DB)) {
                             odometry_DB = "";
                             NODELET_WARN("odometry_DB path doesn't exist or is unreachable.");
                         }
                         zed->enableTracking(trackParams);
                         tracking_activated = true;
-                    } else if (!depth_stabilization && odom_SubNumber == 0 && tracking_activated) { //Stop the tracking
+                    } else if (!depth_stabilization && tracking_activated) { //Stop the tracking - supposed to have && odom_SubNumber == 0 in else if
                         zed->disableTracking();
                         tracking_activated = false;
                     }
@@ -560,7 +560,7 @@ namespace zed_wrapper {
                                 std::this_thread::sleep_for(std::chrono::milliseconds(2000));
                             }
                             tracking_activated = false;
-                            if (depth_stabilization || odom_SubNumber > 0) { //Start the tracking
+                            if (depth_stabilization || odom_SubNumber >= 0) { //Start the tracking
                                 if (odometry_DB != "" && !file_exist(odometry_DB)) {
                                     odometry_DB = "";
                                     NODELET_WARN("odometry_DB path doesn't exist or is unreachable.");
@@ -658,7 +658,7 @@ namespace zed_wrapper {
                     }
 
                     // Publish the odometry if someone has subscribed to
-                    if (odom_SubNumber > 0) {
+                    if (odom_SubNumber >= 0) {
                         zed->getPosition(pose);
                         // Transform ZED pose in TF2 Transformation
                         tf2::Transform camera_transform;

@@ -2,7 +2,7 @@
     <name>odometry</name>
     <version>1.14.2</version>
     <description>
-        Control package
+        Odometry package
     </description>
     <maintainer email="brian.aly@mail.utoronto.ca">Brian Aly</maintainer>
     <author>brian.aly@mail.utoronto.ca</author>
@@ -10,6 +10,7 @@
     <url>http://wiki.ros.org/navigation</url>
 
     <buildtool_depend>catkin</buildtool_depend>
+    <run_depend>odom</run_depend>
 
     <export>
         <metapackage/>

@@ -42,7 +42,7 @@ int main(int argc, char **argv)
   tf::TransformBroadcaster odom_broadcaster;
   geometry_msgs::TransformStamped odom_trans;
 
-  ros::Rate loop_rate(50);
+  ros::Rate loop_rate(1000);
 
   double dt;
   double x,y,z,a,b,c = 0;
