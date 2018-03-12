@@ -42,7 +42,7 @@ int main(int argc, char **argv)
   tf::TransformBroadcaster odom_broadcaster;
   geometry_msgs::TransformStamped odom_trans;
 
-  ros::Rate loop_rate(1000);
+  ros::Rate loop_rate(10);
 
   double dt;
   double x,y,z,a,b,c = 0;
@@ -83,7 +83,7 @@ int main(int argc, char **argv)
 
     odom_pub.publish(curr_odom);
 
-    loop_rate.sleep();
+    usleep(250000);
     
   }
   return 0;

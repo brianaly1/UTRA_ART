@@ -5,7 +5,7 @@
 
 double vx,wz;
 double wheelbase = 0.91; // meters
-double manual_control = 1.0;
+double manual_control = 0.0;
 
 void targetcb(const geometry_msgs::Twist& msg)
 {
